@@ -1,0 +1,550 @@
+* {
+	padding: 0 px;
+	margin: 0 px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.Vice-navigation {
+	width: 50px;
+	height: 200px;
+	background-color: #e1dadd;
+	position: fixed;
+	right: 0px;
+	top: 45%;
+	border-radius: 11px;
+	z-index: 999;
+}
+
+.Vice-navigation-ul {
+	width: 50px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.Vice-navigation-ul li {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: -40px;
+	text-align: center;
+	line-height: 35px;
+}
+
+.header {
+	width: 100%;
+	height: 100%;
+	background-color: aqua;
+}
+
+.first-line {
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+	background-color: #e1dadd;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+
+}
+
+.first-line-left {
+	width: 600px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.first-line-right {
+	width: 810px;
+	height: 100px;
+}
+
+.first-line-right ul {
+	width: 600px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.left-i {
+	width: 40px;
+	height: 40px;
+	background: url(../img/logo.png) no-repeat center;
+	background-size: 100%;
+}
+
+.i-text {
+	width: 108px;
+	height: 28px;
+	line-height: 28px;
+}
+
+.right-li {
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.right-li:hover{
+	border-bottom: 2px solid red;
+	transition: 0.2s all linear;
+}
+
+#Vice li:hover{
+	border-bottom: 2px solid red;
+	transition: 0.2s all linear;
+}
+
+.right-li-d {
+	width: 90px;
+	height: 30px;
+	background-color: red;
+	border-radius: 17px;
+	text-align: center;
+	line-height: 30px;
+	color: #F0F8FF;
+	font-size: 10px;
+}
+
+.Rotation {
+	width: 100%;
+	height: 660px;
+	background: url(../img/bg-screen-1.png);
+}
+
+.Rotation-7pro {
+	width: 600px;
+	height: 63px;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 54px;
+	color: #b71b26;
+	margin: 0 auto;
+	position: relative;
+	top: 130px;
+}
+
+.Rotation-phone {
+	width: 740px;
+	height: 164px;
+	background: url(../img/screen-4-phone.png) no-repeat center;
+	background-size: 100%;
+	position: relative;
+	top: 199px;
+	margin: 0 auto
+}
+
+.Rotation-phone-di img {
+	width: 808px;
+	height: 234px;
+	position: relative;
+	top: 118px;
+	left: 352px;
+}
+
+.Rotation-2 {
+	width: 100%;
+	height: 600px;
+	background-color: #fafafa;
+}
+
+.Rotation-2-text {
+	width: 550px;
+	height: 49px;
+	font-size: 50px;
+	line-height: 49px;
+	position: relative;
+	top: 60px;
+	left: 478px;
+}
+
+
+.Rotation-3-text {
+	width: 581px;
+	height: 50px;
+	font-size: 18px;
+	position: relative;
+	top: 60px;
+	left: 478px;
+}
+
+
+.text-1 {
+	width: 581px;
+	height: 25px;
+	text-align: center;
+}
+
+
+.Rotation-2-phone {
+	width: 950px;
+	height: 880px;
+	background: url(../img/screen-2-phone.png) no-repeat center;
+	background-size: 100%;
+	position: relative;
+	left: 128px;
+}
+
+.Rotation-2-phone-2 {
+	position: relative;
+	top: 88px;
+	left: 250px;
+	width: 1005px;
+	height: 395px;
+	overflow: hidden;
+}
+
+.Rotation-2-logo-left img {
+	width: 110px;
+	height: 15px;
+	position: relative;
+	top: 39px;
+	left: 559px;
+}
+
+.Rotation-2-logo-right1 img {
+	width: 110px;
+	height: 15px;
+	position: relative;
+	top: 131px;
+	left: 613px;
+}
+
+.Rotation-2-logo-right2 img {
+	width: 137px;
+	height: 15px;
+	position: relative;
+	top: 110px;
+	left: -42px;
+}
+
+.Rotation-2-phone-text1 {
+	width: 137px;
+	height: 20px;
+	position: relative;
+	top: 70px;
+	left: -86px;
+}
+
+.Rotation-2-phone-text2 {
+	width: 137px;
+	height: 20px;
+	position: relative;
+	top: -77px;
+	left: 254px;
+	margin: 0 auto;
+}
+
+.Rotation-2-phone-text3 {
+	width: 137px;
+	height: 20px;
+	position: relative;
+	top: 14px;
+	left: 312px;
+	margin: 0 auto;
+}
+
+.Rotation-3 {
+	width: 100%;
+	height: 600px;
+	background-color: #121111;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+
+.Rotation-3-left {
+	width: 500px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.Rotation-3-right {
+	width: 500px;
+	height: 600px;
+	overflow: hidden;
+}
+
+.Rotation-3-left-text {
+	width: 500px;
+	height: 50px;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.Rotation-3-left-text2 {
+	width: 500px;
+	height: 50px;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #b1aeae;
+}
+
+.text-2 {
+	width: 500px;
+	height: 25px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.Rotation-3-div {
+	width: 350px;
+	height: 180px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.Rotation-3-div1 {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #f2f0f0;
+	text-align: center;
+	line-height: 150px;
+}
+
+.Rotation-3-div1-p {
+	width: 150px;
+	height: 25px;
+	font-size: 20px;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+.Rotation-3-div1-p2 {
+	width: 150px;
+	height: 25px;
+	font-size: 10px;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+.Rotation-3-right-tu {
+	width: 499px;
+	height: 686px;
+	background: url(../img/screen-5-phone.png) no-repeat center;
+	background-size: 100%;
+	position: relative;
+	top: 12px;
+	left: 3px;
+}
+
+.Rotation-4 {
+	width: 100%;
+	height: 600px;
+	background-color: #fafafa;
+}
+
+.Rotation-4-text {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Rotation-4-p {
+	width: 448px;
+	height: 49px;
+	font-size: 40px;
+	color: #3e3f3f;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Rotation-4-p2 {
+	width: 448px;
+	height: 20px;
+	font-size: 13px;
+	color: #3e3f3f;
+	text-align: center;
+
+}
+
+.Rotation-4-p3 {
+	width: 448px;
+	height: 20px;
+	font-size: 13px;
+	color: #3e3f3f;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Rotation-4-tu {
+	width: 1100px;
+	height: 270px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.Rotation-4-tu1 {
+	width: 240px;
+	height: 270px;
+	background: url(../img/phone-1.png) no-repeat center;
+	background-size: 100%;
+}
+
+.Rotation-4-tu2 {
+	width: 240px;
+	height: 270px;
+	background: url(../img/phone-2.png) no-repeat center;
+	background-size: 100%;
+}
+
+.Rotation-4-tu3 {
+	width: 240px;
+	height: 270px;
+	background: url(../img/phone-3.png) no-repeat center;
+	background-size: 100%;
+}
+
+.Rotation-4-tu4 {
+	width: 240px;
+	height: 270px;
+	background: url(../img/phone-4.png) no-repeat center;
+	background-size: 100%;
+}
+
+.Rotation-4-tu-text {
+	width: 1100px;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.Rotation-4-tu-text1 {
+	width: 240px;
+	height: 80px;
+	text-align: center;
+}
+
+.Rotation-4-text1-p1 {
+	width: 240px;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.Rotation-4-text1-p2 {
+	width: 240px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.Rotation-5 {
+	width: 100%;
+	height: 600px;
+	background-color: #121111;
+	overflow: hidden;
+}
+
+.Rotation-5-text {
+	width: 1200px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.Rotation-5-p {
+	width: 650px;
+	height: 49px;
+	font-size: 40px;
+	color: #3e3f3f;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 49px;
+}
+
+.Rotation-5-p2 {
+	width: 650px;
+	height: 49px;
+	font-size: 20px;
+	color: #3e3f3f;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 49px;
+}
+
+.Rotation-5-p3 {
+	width: 650px;
+	height: 49px;
+	font-size: 20px;
+	color: #3e3f3f;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 49px;
+}
+
+.Rotation-5-tu {
+	width: 1500px;
+	height: 390px;
+	background: url(../img/bg-screen-5.png) no-repeat center;
+	margin: 0 auto;
+	background-size: 100%;
+}
+
+.Rotation-6 {
+	width: 100%;
+	height: 240px;
+	background: url(../img/bg-screen-buy.png) no-repeat center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.Rotation-6-sub {
+	width: 200px;
+	height: 60px;
+	background: url(../img/bg-screen-3.png) no-repeat center;
+	background-size: 100%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 60px;
+	font-size: 22px;
+	color: #ffff;
+}
+
+.Rotation-7 {
+	width: 100%;
+	height: 40px;
+	background-color: #F2F0F0;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+}
